@@ -1,0 +1,81 @@
+section {
+  min-height: 90vh;
+}
+
+body {
+	min-width: 600px !important;
+	background-image: url("https://gweb-earth.storage.googleapis.com/assets/hero@2x.jpg") !important;
+	background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+	height: 100%;
+}
+
+h1 {
+	color: #FFD700 !important;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: #FFD700 !important;
+}
+
+.container {
+	text-align: center;
+}
+
+.container#weatherLocation {
+	margin: 10px;
+	height: 50px;
+	width: auto;
+	padding: 5px;
+  text-align: center;
+	box-shadow: 1px 1px 1px 1px rgb(6, 6, 6, 6, 6);
+  color: white;
+}
+
+.weatherDetail {
+	display: inline-block;
+	margin: 10px;
+	height: auto;
+	width: auto;
+	padding: 5px;
+  line-height: 50px;
+  text-align: center;
+	box-shadow: inset 1px 1px 1px rgb(0, 0, 0, 0, 6);
+	background-color: transparent;
+  color: white;
+}
+
+#temp:hover {
+	cursor: pointer;
+	color: darkgray !important;
+}
+
+
+/* Footer */
+/* -------------- */
+footer {
+	text-align: center;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  color: darkgray;
+  background-color: black;
+}
+
+.social-icons{
+	display: inline-block;
+}
+
+.social-icon-item {
+	float: left;
+	padding: 8px;
+}
+
+.social-icon-item:hover {
+	-ms-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+}

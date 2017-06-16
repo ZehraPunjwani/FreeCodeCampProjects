@@ -1,0 +1,97 @@
+@-ms-viewport {
+	width: device-width;
+}
+
+html {
+  min-width: 600px;
+  width: auto !important;
+  width: 600px; 
+  height: 100%;
+}
+
+body {
+	background: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/low_contrast_linen.png");
+	padding: 70px 0px;
+	color: white;
+	position: relative;
+  	margin: 0;
+}
+
+.main {
+	width: 800px;
+	margin: 0px auto 0px auto;
+	padding: 30px 20px 10px 20px;
+	background-color: black;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+h5 {
+	text-align: center;
+	font-size: 12pt;
+}
+
+img {
+	float: right;
+	-webkit-filter: brightness(3);
+	filter: brightness(3);
+}
+
+#title {
+	float: left;
+	text-align: left;
+	margin-top: 30px;
+}
+
+#quoteDiv {
+	width: 700px;
+	height: 0 auto;
+	margin: 0px auto 10px auto;
+	padding: 30px 20px 20px 20px;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+button {
+	background-color: Green;
+	/* Green */
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+}
+
+#buttons {
+	position: relative;
+}
+
+#getNewQuote {
+	padding: 10px 12px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#quote {
+	font-size: 12pt;
+	text-align: justify;
+}
+
+#author {
+	clear:both;
+	font-size: 10pt;
+	text-align: right;
+}
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #1E2832;
+	text-align: center;
+}

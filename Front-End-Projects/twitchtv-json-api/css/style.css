@@ -1,0 +1,137 @@
+header,
+#bottom {
+ overflow: auto;
+ background-color: #4d4d4d;
+ padding-top: 10px;
+}
+
+body {
+ min-width: 700px !important;
+ padding: 30px;
+}
+
+.leftFloat {
+ float: left;
+ height: 90%;
+ text-align: center;
+ display: table;
+ width: 75%;
+ color: lightgray;
+}
+
+.leftFloatImg {
+ float: left;
+ max-height: 30%;
+ text-align: center;
+ display: table;
+ max-width: 30%;
+ color: lightgray;
+	margin-left: 120px;
+}
+
+.leftFloat h1 {
+ font-family: impact;
+ font-size: 40pt;
+}
+
+.rightFloat {
+ float: right;
+}
+
+.rightFloat ul {
+ list-style-type: none;
+ text-align: right;
+}
+
+.fa {
+ float: left;
+}
+
+.navText {
+ float: right;
+}
+
+#OnlineUsers,
+#OfflineUsers {
+ width: 100%;
+ display: display;
+ text-align: center;
+ border: 2px solid black;
+}
+
+#all {
+ color: gray;
+}
+
+#online {
+ color: lightgreen;
+}
+
+#offline {
+ color: turquoise;
+}
+
+#btn-all:hover,
+#btn-online:hover,
+#btn-offline:hover {
+ width: 100px;
+}
+
+button {
+ padding: 1px;
+}
+
+button.selected {
+ width: 100px;
+}
+
+#onlineResult {
+ background-color: lightgreen;
+ overflow: auto;
+ padding-top: 10px;
+}
+
+#offlineResult {
+ background-color: turquoise;
+ overflow: auto;
+ padding-top: 10px;
+}
+
+#onlineResult,
+#offlineResult {
+ font: bold 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+ display: block;
+ margin: 10px;
+ padding: 5px;
+}
+
+#diaplayName {
+ float: left;
+}
+.search {
+	margin: 10px;
+	text-align: center;
+}
+
+.searchTerm {
+  width: 70%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+}
+
+.searchButton {
+  position: absolute;  
+  width: 30px;
+  height: 25px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
